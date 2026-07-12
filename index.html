@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Workout Generator</title>
+</head>
+<body>
+    <main>
+        <h1>Running Workout Generator</h1>
+
+        <p>
+            Generate a speed workout based on the race distance you are training for, your experience level, and the type of terrain you plan to run on.
+        </p>
+
+        <form id="workout-form">
+            <h2>Target Race Distance</h2>
+            <input type="radio" id="half-marathon" name="target-distance" value="half-marathon">
+            <label for="half-marathon">Half Marathon</label><br>
+
+            <input type="radio" id="10k" name="target-distance" value="10k">
+            <label for="10k">10K</label><br>
+
+            <input type="radio" id="5k" name="target-distance" value="5k">
+            <label for="5k">5K</label><br>
+
+            <h2>Experience Level</h2>
+            <input type="radio" id="beginner" name="experience-level" value="beginner">
+            <label for="beginner">Beginner</label><br>
+
+            <input type="radio" id="intermediate" name="experience-level" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+
+            <h2>Preferred Terrain</h2>
+            <input type="radio" id="hilly" name="preferred-terrain" value="hilly">
+            <label for="hilly">Hilly</label><br>
+
+            <input type="radio" id="flat-road" name="preferred-terrain" value="flat-road">
+            <label for="flat-road">Flat Road</label><br>
+
+            <input type="radio" id="track" name="preferred-terrain" value="track">
+            <label for="track">Track</label><br>
+
+            <button type="submit">Create Workout</button>
+        </form>
+
+        <section id="results">
+
+        </section>
+
+        <section id="motivational-quote">
+
+        </section>
+    </main>
+</body>
+</html>
