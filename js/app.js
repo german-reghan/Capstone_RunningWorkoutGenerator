@@ -19,8 +19,12 @@ const preferredTerrain = document.querySelector(
 );
 console.log(preferredTerrain.value);
 
-    console.log("Form successfully submitted.");
-}
+console.log("Form successfully submitted.");
 
-);
+const matchingWorkouts = workouts.filter(function(workout) {
+    return workout.distance === selectedDistance.value;
+});
+    console.log(matchingWorkouts);
+});
+
 
