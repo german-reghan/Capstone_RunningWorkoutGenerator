@@ -22,7 +22,11 @@ console.log(preferredTerrain.value);
 console.log("Form successfully submitted.");
 
 const matchingWorkouts = workouts.filter(function(workout) {
-    return workout.distance === selectedDistance.value;
+    return (
+      workout.distance === selectedDistance.value &&
+      workout.level === experienceLevel.value &&
+      workout.terrain === preferredTerrain.value
+    ) 
 });
     console.log(matchingWorkouts);
 });
