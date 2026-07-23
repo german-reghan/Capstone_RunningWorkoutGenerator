@@ -107,4 +107,57 @@ const workouts = [
         source: "therunningchannel.com",
     },
 
+    {
+        distance: "half-marathon",
+        level: "beginner",
+        terrain: "hilly",
+        title: "Finishing Hills",
+        workout: "Plan a 3 mile run route that finishes near a hill. Run 3 miles at a casual pace. At the end of your run, finish on an uphill maintaining pace and practicing form.",
+        source: "https://runwindsor.com/3-best-hill-training-sessions-for-half-marathon-runners/",
+    },
+
+    {
+        distance: "half-marathon",
+        level: "beginner",
+        terrain: "track",
+        title: "Ladder Workout",
+        workout: "Start with a 10 minute warm-up. Run 400 meters hard. Recover jog for 400 meters. Run 800 meters hard. Recover jog for 400 meters. Run 1200 meters hard. Recover jog for 400 meters. Run 1600 meters hard. Recover jog for 400 meters. Cool down run for 10 minutes.",
+        source: "marathonhandbook.com",
+    },
+
+    {
+        distance: "half-marathon",
+        level: "beginner",
+        terrain: "flat-road",
+        title: "Tempo Run",
+        workout: "Start with a 10 minute warm-up. Run at a comfortably hard pace for 20 minutes. End with a 10 minute cool down.",
+        source: "https://www.trainingforhalfmarathon.org/training-plans/essential-half-marathon-speed-workouts",
+    },
+
+    {
+        distance: "half-marathon",
+        level: "intermediate",
+        terrain: "hilly",
+        title: "Finishing Hills",
+        workout: "Plan a 5 mile run route that finishes near a hill. Run 5 miles at a casual pace. At the end of your run, finish on an uphill maintaining pace and practicing form. Jog to the bottom of the hill and run up it once more.",
+        source: "https://runwindsor.com/3-best-hill-training-sessions-for-half-marathon-runners/",
+    },
+
+    {
+        distance: "half-marathon",
+        level: "intermediate",
+        terrain: "track",
+        title: "Ladder Workout",
+        workout: "Start with a 10 minute warm-up. Run 400 meters hard. Recover jog for 400 meters. Run 800 meters hard. Recover jog for 400 meters. Run 1200 meters hard. Recover jog for 400 meters. Run 1600 meters hard. Recover jog for 400 meters. Run 2000 meters hard. Recover jog for 400 meters. Cool down run for 10-20 minutes minutes.",
+        source: "marathonhandbook.com",
+    },
+
+    {
+        distance: "half-marathon",
+        level: "intermediate",
+        terrain: "flat-road",
+        title: "Marshmallow Workout",
+        workout: "Start with a 10 minute warm-up run. Run for 6 minutes at your half marathon goal pace. Go straight into a 2 minute surge. Repeat four times. Finish with a 10 minute cool down.",
+        source: "runnersworld.com",
+    },
 ]

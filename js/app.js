@@ -29,6 +29,9 @@ const matchingWorkouts = workouts.filter(function(workout) {
     ) 
 });
     console.log(matchingWorkouts);
+
+const random = Math.floor(Math.random() * matchingWorkouts.length);
+console.log(random, matchingWorkouts[random]);
 });
 
 
